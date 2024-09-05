@@ -1,7 +1,3 @@
-#include "ad_reseau_ broadcast.c"
-
-
-
 
 char *convert_binaire(int number,char *chaine);
 int decimal(char *dix);
