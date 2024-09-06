@@ -171,7 +171,7 @@ void netmask(int nbr_reseau,char *ip)
 		scanf("%d",&n);
 		new_mask=nbr_reseau + n;
 		
-	}while(new_mask >= 32);
+	}while(new_mask >= 31 || n < 0);
 	
 //--------------------------------------------	
 	char fi[9]="";
